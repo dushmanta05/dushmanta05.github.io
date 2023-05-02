@@ -1,38 +1,15 @@
-<h1 align="center">Hi 👋, I'm Dushmanta Behera</h1>
-<h3 align="center">A passionate web developer from India.</h3>
+<h3 align='center'>Hello there! 👋 </h3>
 
-- I’m currently working as a **Junior Web Developer** at **Invicta Ltd**
+#### About me:
+- **Front-end web developer** with a passion for **open-source contributions** and a drive to learn about **blockchain technology**.
+- Proficient in **JavaScript**, **React**, and **TypeScript** and have experience building responsive and user-friendly web applications.
+- Eager to explore the potential of decentralised networks and contribute to the emerging blockchain ecosystem.
+- Looking forward to connect with others who are passionate about web development and blockchain technology and exploring new opportunities to learn and grow as a developer.
 
-- My area of interest are **Web Development, Web3 & Machine Learning**
+Have an **idea** for a project you'd like to collaborate on? I'd love to hear from you! Please feel free to drop me a line at **dilub4@gmail.com**, Let's build something great together. **🤝**
 
-- My skills include **HTML, CSS, JavaScript, ReactJS, Redux, Tailwind CSS, Material UI, Shopify, Firebase, Java etc**
+#### Socials:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/dushmanta05) [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.com/users/998821117701660732) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/dushmanta05)
 
-- I’m looking for a **Frontend role / entry level software engineer role**
-
-- Ask me about **React, JavaScript**
-
-- How to reach me: **dilub4@gmail.com**
-
-- Pronouns: **He/Him/His**
-
-- Besides coding I love **Football, Reading Novels, Travelling etc**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/dushmanta05" target="blank"><img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg" alt="dushmanta05" height="30" width='40' /></a>
-<a href="https://linkedin.com/in/dushmanta05" target="blank"><img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="dushmanta05" height="30" width='40' /></a>
-</p>
-
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> 
-  <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> 
-  <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> 
-  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="html5" width="40" height="40"/> </a>
-  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="css3" width="40" height="40"/> </a> 
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a>
-  <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="react" width="40" height="40"/> </a>
-  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a>
-  <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" alt="tailwind" width="40" height="40"/> </a> 
-  <a href="https://redux.js.org" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/> </a> 
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="git" width="40" height="40"/> </a> 
-</p>
+#### Skills & Tools:
+![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=flat&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?style=flat&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) ![React](https://img.shields.io/badge/React-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white) ![MUI](https://img.shields.io/badge/MUI-%23007FFF.svg?style=flat&logo=mui&logoColor=white) ![Redux](https://img.shields.io/badge/Redux-%23764ABC.svg?style=flat&logo=redux&logoColor=%23D3D3D3) ![Shopify](https://img.shields.io/badge/Shopify-%2396bf48.svg?style=flat&logo=shopify&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-%2320232a.svg?style=flat&logo=tailwindcss) ![GraphQL](https://img.shields.io/badge/GraphQL-%23e10098.svg?style=flat&logo=graphql) ![Git](https://img.shields.io/badge/Git-%23F05032.svg?style=flat&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-%23000000.svg?style=flat&logo=github&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=flat&logo=next.js&logoColor=white) ![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=flat&logo=java) ![Go](https://img.shields.io/badge/Go-%2300ADD8.svg?style=flat&logo=go&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-%23039BE5.svg?style=flat&logo=firebase) ![Markdown](https://img.shields.io/badge/Markdown-%23000000.svg?style=flat&logo=markdown&logoColor=white)
