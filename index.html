@@ -1,175 +1,483 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="icon" href="./images//icon.png" type="image/png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      href="./images/dilu-icon.png"
+      type="image/png"
+      class="favicon"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio | Dushmanta</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-  <div class="vh-100 d-flex flex-column">
-    <section id="header" class="">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="vh-100 d-flex flex-column">
+      <section id="header" class="">
         <div class="container">
-            <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-lg-4 border-bottom">
-              <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-                <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
-                <li><a href="#" class="nav-link px-2">About</a></li>
-                <li><a href="#" class="nav-link px-2">Projects</a></li>
-                <li><a href="#" class="nav-link px-2">Blog</a></li>
-                <li><a href="#" class="nav-link px-2">Contact</a></li>
-              </ul>
-              <div class="col-md-3 text-end">
-                <button type="button" class="btn btn-dark me-2">
-                  <a href="https://github.com/dushmanta05" target="_blank" rel="noopener noreferrer" class="d-flex align-items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-github" viewBox="0 0 16 16">
-                      <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-                    </svg>
-                    <span class="ms-1">GitHub</span>
-                  </a>
-                </button>
-                <button type="button" class="btn btn-primary ">
-                  <a href="https://linkedin.com/in/dushmanta05" target="_blank" rel="noopener noreferrer" class="d-flex align-items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-linkedin" viewBox="0 0 16 16">
-                      <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
-                    </svg>
-                    <span class="ms-1">LinkedIn</span>
-                  </a>
-                </button>
-              </div>
-            </header>
-          </div>
-    </section>
+          <header
+            class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-lg-4 border-bottom"
+          >
+            <ul
+              class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0"
+            >
+              <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
+              <li><a href="#about" class="nav-link px-2">About</a></li>
+              <li><a href="#skills" class="nav-link px-2">Skills</a></li>
+              <li><a href="#projects" class="nav-link px-2">Projects</a></li>
+              <li><a href="#blogs" class="nav-link px-2">Blogs</a></li>
+              <li><a href="#contact" class="nav-link px-2">Contact</a></li>
+            </ul>
+            <div class="col-md-3 text-end">
+              <button type="button" class="btn btn-dark me-2">
+                <a
+                  href="https://github.com/dushmanta05"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="d-flex align-items-center"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="#fff"
+                    class="bi bi-github"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                    />
+                  </svg>
+                  <span class="ms-1">GitHub</span>
+                </a>
+              </button>
+              <button type="button" class="btn btn-primary">
+                <a
+                  href="https://linkedin.com/in/dushmanta05"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="d-flex align-items-center"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="#fff"
+                    class="bi bi-linkedin"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
+                    />
+                  </svg>
+                  <span class="ms-1">LinkedIn</span>
+                </a>
+              </button>
+            </div>
+          </header>
+        </div>
+      </section>
 
-<!-- Hero Section -->
+      <!-- Hero Section -->
 
-    <section id="heroes" class="">
+      <section id="heroes" class="">
         <div class="container col-xxl-9 px-2 py-5">
-            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-                <div class="col-10 col-sm-8 col-lg-6">
-                    <img src="./images/webdev.jpg" class="img d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" height="200" loading="lazy">
-                  </div>
-              <div class="col-lg-6">
-                <p class="lead text-body-primary">Hello, there! 👋🏽 I'm</p>
-                <h1 class="display-4 fw-bold text-body-emphasis lh-1 mb-3">Dushmanta Behera.</h1>
-                <h2 class="display-5  text-body-emphasis lh-1 mb-3 text-body-secondary">I build things for the web.</h2>
-                <div class="d-grid d-md-flex justify-content-md-start">
-                  <button type="button" class="btn btn-primary btn-lg px-4 col-6 col-md-3 me-md-2">Resume</button>
-                </div>
-              </div>
+          <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+              <img
+                src="./images/webdev.jpg"
+                class="img d-block mx-lg-auto img-fluid"
+                alt="Bootstrap Themes"
+                height="200"
+                loading="lazy"
+              />
             </div>
-          </div>
-    </section>
-  </div>
-    <section class="bg-body-tertiary">
-        <div class="container py-4">
-            <div class="p-3 text-center bg-body-tertiary rounded-3 ">
-              <img class="mb-4 mt-2" src="./images/dilu.png" height="150" alt="profile image" style="border-radius: 50%;">
-              <p class="col-lg-9 mx-auto fs-5 text-muted">
-                I'm a proficient web developer with expertise in <code>HTML5</code>, <code>CSS3</code> and <code>JavScript</code>. My toolkit also includes <code>React</code> for dynamic user interfaces, <code>TypeScript</code> for enhanced code quality, and <code>Node.js</code> for server-side efficiency.
-              </p>
-              <div class="d-inline-flex gap-2 mb-5">
-                <button class="btn btn-primary btn-lg px-4 rounded-pill" type="button">
-                  Hire me
+            <div class="col-lg-6">
+              <p class="lead text-body-primary">Hello, there! 👋🏽 I'm</p>
+              <h1 class="display-4 fw-bold text-body-emphasis lh-1 mb-3">
+                Dushmanta Behera.
+              </h1>
+              <h2
+                class="display-5 text-body-emphasis lh-1 mb-3 text-body-secondary"
+              >
+                I build things for the web.
+              </h2>
+              <div class="d-grid d-md-flex justify-content-md-start">
+                <button
+                  type="button"
+                  class="btn btn-primary btn-lg px-4 col-6 col-md-3 me-md-2"
+                >
+                  Resume
                 </button>
               </div>
             </div>
           </div>
-    </section>
-
-    <!-- Projects -->
-    <section>
-        <div class="container px-4 py-5" id="custom-cards">
-            <h2 class="pb-2 border-bottom">Projects</h2>
-        
-            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-              <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url(./images/projects/fit-bull.png); background-size: cover;">
-                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Fit-Bull: Gym Exercise Web App</h3>
-                    <ul class="d-flex list-unstyled mt-auto">
-                      <li class="me-auto">
-                        <img src="./images/github.svg" alt="GitHub" width="32" height="32" class="rounded-circle border bg-light p-1 border-white">
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
-                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Fresh Meal: Online Food Order App</h3>
-                    <ul class="d-flex list-unstyled mt-auto">
-                      <li class="me-auto">
-                        <img src="./images/github.svg" alt="GitHub" width="32" height="32" class="rounded-circle border bg-light p-1 border-white">
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./images/projects/deepblue.png'); background-size: cover;">
-                  <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">deepBlue Tech: Everything Digital</h3>
-                    <ul class="d-flex list-unstyled mt-auto">
-                      <li class="me-auto">
-                        <img src="./images/github.svg" alt="GitHub" width="32" height="32" class="rounded-circle border bg-light p-1 border-white">
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-    </section>
-
-<!-- Blog -->
-
-    <section>
+        </div>
+      </section>
+    </div>
+    <section id="about" class="bg-body-tertiary">
       <div class="container py-5 px-4">
-        <h2 class="pb-2 border-bottom">Blogs</h2>
-        <div class="row align-items-md-stretch pt-5">
-          <div class="col-md-6">
-            <div class="h-100 p-5 text-white bg-primary rounded-3">
-              <h2>"First-Class Function" and "Higher Order Function"</h2>
-              <p>Let's understand 'first-class function' and 'higher-order function' in JavaScript.</p>
-              <a href="https://dushmanta.hashnode.dev/first-class-function-and-higher-order-function" target="_blank">
-                <button class="btn btn-outline-light" type="button">Read more</button>
-              </a>
-            </div>
+        <div class="p-3 text-center bg-body-tertiary rounded-3">
+          <img
+            class="mb-4 mt-2"
+            src="./images/dilu.png"
+            height="150"
+            alt="profile image"
+            style="border-radius: 50%"
+          />
+          <p class="col-lg-9 mx-auto fs-5 text-muted">
+            I'm a proficient web developer with expertise in <code>HTML5</code>,
+            <code>CSS3</code> and <code>JavScript</code>. My toolkit also
+            includes <code>React</code> for dynamic user interfaces,
+            <code>TypeScript</code> for enhanced code quality, and
+            <code>Node.js</code> for server-side efficiency.
+          </p>
+          <div class="d-inline-flex gap-2 mb-5">
+            <button
+              class="btn btn-primary btn-lg px-4 rounded-pill"
+              type="button"
+            >
+              Hire me
+            </button>
           </div>
-          <div class="col-md-6">
-            <div class="h-100 p-5 bg-light border rounded-3">
-              <h2>Comparing multiple items in JavaScript</h2>
-              <p>Understanding how to compare multiple items in JavaScript with the help of Array.indexof() method.</p>
-              <a href="https://dushmanta.hashnode.dev/using-arrayindexof-to-compare-multiple-items-in-javascript" target="_blank">
-                <button class="btn btn-outline-primary" type="button">Read more</button>
-              </a>
-              
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <div class="container px-4 py-5">
+        <h2 class="pb-2 border-bottom">Skills</h2>
+        <div class="container pt-5">
+          <div class="grid-container">
+            <div class="grid-item">
+              <img height="40" src="https://img.shields.io/badge/HTML5-%23E34F26.svg?style=flat&logo=html5&logoColor=white" alt="">
+            </div>
+            <div class="grid-item">
+              <img height="40" src="https://img.shields.io/badge/CSS3-%231572B6.svg?style=flat&logo=css3&logoColor=white" alt="">
+            </div>
+            <div class="grid-item">
+              <img height="40" src="https://img.shields.io/badge/JavaScript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E" alt="">
+            </div>
+            <div class="grid-item">
+              <img height="40" src="https://img.shields.io/badge/React-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB" alt="">
+            </div>
+            <div class="grid-item">
+              <img height="40" src="https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white" alt="">
+            </div>
+            <div class="grid-item">
+              <img height="40" src="https://img.shields.io/badge/Java-%23ED8B00.svg?style=flat&logo=java" alt="">
+            </div>
+            <div class="grid-item">
+              <img height="40" src="https://img.shields.io/badge/Bootstrap-%237010F4.svg?style=flat&logo=bootstrap&logoColor=white" alt="">
+            </div>            
+            <div class="grid-item">
+              <img height="40" src="https://img.shields.io/badge/MUI-%23007FFF.svg?style=flat&logo=mui&logoColor=white" alt="">
+            </div>
+            <div class="grid-item">
+              <img height="40" src="https://img.shields.io/badge/Redux-%23764ABC.svg?style=flat&logo=redux&logoColor=%23D3D3D3" alt="">
+            </div>
+            <div class="grid-item">
+              <img height="40" src="https://img.shields.io/badge/Shopify-%2396bf48.svg?style=flat&logo=shopify&logoColor=white" alt="">
+            </div>
+            <div class="grid-item">
+              <img height="40" src="https://img.shields.io/badge/Tailwind-%2320232a.svg?style=flat&logo=tailwindcss" alt="">
+            </div>
+            <div class="grid-item">
+              <img height="40" src="https://img.shields.io/badge/GraphQL-%23e10098.svg?style=flat&logo=graphql" alt="">
+            </div>
+            <div class="grid-item">
+              <img height="40" src="https://img.shields.io/badge/Git-%23F05032.svg?style=flat&logo=git&logoColor=white" alt="">
+            </div>
+            <div class="grid-item">
+              <img height="40" src="https://img.shields.io/badge/GitHub-%23000000.svg?style=flat&logo=github&logoColor=white" alt="">
+            </div>
+            <div class="grid-item">
+              <img height="40" src="https://img.shields.io/badge/Firebase-%23039BE5.svg?style=flat&logo=firebase" alt="">
+            </div>
+            <div class="grid-item">
+              <img height="40" src="https://img.shields.io/badge/Markdown-%23000000.svg?style=flat&logo=markdown&logoColor=white" alt="">
             </div>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- Projects -->
+    <section id="projects">
+      <div class="container px-4 py-5" id="custom-cards">
+        <h2 class="pb-2 border-bottom">Projects</h2>
+
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="
+                background-image: url(./images/projects/fit-bull.png);
+                background-size: cover;
+              "
+            >
+              <div
+                class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+              >
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                  Fit-Bull: Gym Exercise Web App
+                </h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img
+                      src="./images/github.svg"
+                      alt="GitHub"
+                      width="32"
+                      height="32"
+                      class="rounded-circle border bg-light p-1 border-white"
+                    />
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="background-image: url('unsplash-photo-2.jpg')"
+            >
+              <div
+                class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+              >
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                  Fresh Meal: Online Food Order App
+                </h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img
+                      src="./images/github.svg"
+                      alt="GitHub"
+                      width="32"
+                      height="32"
+                      class="rounded-circle border bg-light p-1 border-white"
+                    />
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="
+                background-image: url('./images/projects/deepblue.png');
+                background-size: cover;
+              "
+            >
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                  deepBlue Tech: Everything Digital
+                </h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img
+                      src="./images/github.svg"
+                      alt="GitHub"
+                      width="32"
+                      height="32"
+                      class="rounded-circle border bg-light p-1 border-white"
+                    />
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog -->
+
+    <section id="blogs">
+      <div class="container py-5 px-4">
+        <h2 class="pb-2 border-bottom">Blogs</h2>
+        <div class="row align-items-md-stretch pt-5">
+          <div class="col-md-6">
+            <div class="h-100 p-5 text-white bg-primary rounded-3">
+              <h2>"First-Class Function" and "Higher Order Function"</h2>
+              <p>
+                Let's understand 'first-class function' and 'higher-order
+                function' in JavaScript.
+              </p>
+              <a
+                href="https://dushmanta.hashnode.dev/first-class-function-and-higher-order-function"
+                target="_blank"
+              >
+                <button class="btn btn-outline-light" type="button">
+                  Read more
+                </button>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="h-100 p-5 bg-light border rounded-3">
+              <h2>Comparing multiple items in JavaScript</h2>
+              <p>
+                Understanding how to compare multiple items in JavaScript with
+                the help of Array.indexof() method.
+              </p>
+              <a
+                href="https://dushmanta.hashnode.dev/using-arrayindexof-to-compare-multiple-items-in-javascript"
+                target="_blank"
+              >
+                <button class="btn btn-outline-primary" type="button">
+                  Read more
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="bg-body-tertiary">
+      <div class="container py-5 px-4">
+        <h2 class="pb-2 border-bottom">Contact</h2>
+        <div class="row pt-5">
+          <div class="col-lg-10 mx-auto">
+            <div class="card mt-2 mx-auto p-4 bg-light">
+              <div class="card-body bg-light">
+                <div class="container">
+                  <form id="contact-form" role="form">
+                    <div class="controls">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label for="form_name" class="mb-1"
+                              >First Name</label
+                            >
+                            <input
+                              id="form_name"
+                              type="text"
+                              name="name"
+                              class="form-control"
+                              placeholder="John"
+                              required="required"
+                              data-error="Firstname is required."
+                            />
+                          </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                          <div class="form-group">
+                            <label for="form_lastname" class="mb-1"
+                              >Last Name</label
+                            >
+                            <input
+                              id="form_lastname"
+                              type="text"
+                              name="surname"
+                              class="form-control"
+                              placeholder="Doe"
+                              required="required"
+                              data-error="Lastname is required."
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <label for="form_email" class="mb-1">Email</label>
+                            <input
+                              id="form_email"
+                              type="email"
+                              name="email"
+                              class="form-control"
+                              placeholder="johndoe@email.com"
+                              required="required"
+                              data-error="Valid email is required."
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <label for="form_message" class="mb-1"
+                              >Message</label
+                            >
+                            <textarea
+                              id="form_message"
+                              name="message"
+                              class="form-control"
+                              placeholder="Write your message ..."
+                              rows="4"
+                              required="required"
+                              data-error="Please, leave a message."
+                            ></textarea>
+                          </div>
+                        </div>
+                        <div class="col-5 mt-3">
+                          <button type="submit" class="btn btn-primary">
+                            Submit
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Footer -->
     <section>
-        <div class="container">
-            <footer class="py-3 my-4">
-              <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Projects</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Blogs</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Contact</a></li>
-              </ul>
-              <p class="text-center text-body-secondary">Made with 💙 by Dushmanta</p>
-            </footer>
-          </div>
+      <div class="container">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link px-2 text-body-secondary"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link px-2 text-body-secondary"
+                >Skills</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link px-2 text-body-secondary"
+                >Projects</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#blogs" class="nav-link px-2 text-body-secondary"
+                >Blogs</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link px-2 text-body-secondary"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <p class="text-center text-body-secondary">
+            Made with 💙 by Dushmanta
+          </p>
+        </footer>
+      </div>
     </section>
-</body>
+  </body>
 </html>
